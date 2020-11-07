@@ -1,3 +1,12 @@
+1.下载安装包
+
+#wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+安装google-chrome需要依赖libvulkan.so.1()(64bit)以及liberation-fonts，因此先安装相应的依赖包
+
+2.安装依赖
+
+安装libvulkan.so.1()(64bit)
+
 1.下载相应安装包
 
 #wget http://mirror.centos.org/centos/7/os/x86_64/Packages/vulkan-1.1.97.0-1.el7.x86_64.rpm
