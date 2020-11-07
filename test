@@ -1,0 +1,59 @@
+1.下载相应安装包
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/vulkan-1.1.97.0-1.el7.x86_64.rpm
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/libwayland-client-1.15.0-1.el7.x86_64.rpm
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/vulkan-filesystem-1.1.97.0-1.el7.noarch.rpm
+
+2.进行安装
+
+#yum install libappindicator-gtk3
+
+#yum install libXScrnSaver
+
+#rpm -ivh vulkan-filesystem-1.1.97.0-1.el7.noarch.rpm
+
+#rpm -ivh libwayland-client-1.15.0-1.el7.x86_64.rpm
+
+#rpm -ivh vulkan-1.1.97.0-1.el7.x86_64.rpm 
+
+ 
+
+安装liberation-fonts
+
+1.下载相应安装包
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/liberation-fonts-1.07.2-16.el7.noarch.rpm
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/liberation-mono-fonts-1.07.2-16.el7.noarch.rpm
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/liberation-narrow-fonts-1.07.2-16.el7.noarch.rpm
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/liberation-sans-fonts-1.07.2-16.el7.noarch.rpm
+
+#wget http://mirror.centos.org/centos/7/os/x86_64/Packages/liberation-serif-fonts-1.07.2-16.el7.noarch.rpm
+
+#wget http://mirror.centos.org/altarch/7/os/armhfp/Packages/liberation-fonts-common-1.07.2-16.el7.noarch.rpm
+
+ 
+
+2.进行安装
+
+#rpm -ivh liberation-fonts-common-1.07.2-16.el7.noarch.rpm
+
+#rpm -ivh liberation-mono-fonts-1.07.2-16.el7.noarch.rpm
+
+#rpm -ivh liberation-narrow-fonts-1.07.2-16.el7.noarch.rpm
+
+#rpm -ivh liberation-sans-fonts-1.07.2-16.el7.noarch.rpm
+
+#rpm -ivh liberation-serif-fonts-1.07.2-16.el7.noarch.rpm
+
+#rpm -ivh liberation-fonts-1.07.2-16.el7.noarch.rpm
+
+ 
+
+3.安装google-chrome
+
+#yum install google-chrome-stable_current_x86_64.rpm
